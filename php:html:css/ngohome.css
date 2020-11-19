@@ -1,0 +1,64 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f8f9fa;
+  color: #5a5a5a;
+}
+nav{
+  background-color: #567376
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+
+.marketing .col-lg-4 {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  border: solid;
+  padding-top: 20px;
+}
+.marketing h2 {
+  margin-top: 1rem;
+  font-weight: 400;
+  background-color: #567376;
+  color: white;
+  text-align: center;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.w3-ul{
+  text-align: left;
+}
+
+.w3-ul> li{
+  margin-bottom: 20px;
+}
+
+.w3-badge{
+  background-color: #6c9094;
+  border-radius: 50%;
+  padding:7px;
+  color: white;
+  
+}
+
+.mainimg{
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+}
+
+
+
+

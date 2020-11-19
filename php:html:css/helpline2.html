@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Helplines</title>
+	<style type="text/css">
+		body{
+          background: #f7f2e7;
+          margin: 0;
+          padding: 0;
+          font-family: Arial, Helvetica, sans-serif;
+
+        } 
+        #logo{
+            float: left;
+            border: solid;
+            border-width: 5px;
+            height: 80px;
+            width: 80px;
+            margin-left: 20px;
+            
+        }
+        
+        #title{
+            text-indent: 20px;
+            font-size: 40px;
+            margin-bottom: 5px;
+            font-family:"Brush Script MT",arial,helvetica;
+            display: inline-block;
+            color: white;
+
+        }
+        #top{
+            width: 100%;
+            background-color: #550624;
+            height: 200px;
+        }
+        #log{
+            width: 650px;
+            text-align: right;
+            float: right;
+            font-size: 1.1em;
+            color: #181818;
+            padding-bottom: 2px;
+            text-decoration: none;
+            margin-top: -30px;
+            margin-bottom: 10px;
+            margin-right: 20px;
+        }
+        header{
+            display: inline;
+        }
+        nav{
+            float: right;
+            display: initial;
+            width: 650px;
+            text-align: right;
+        }
+        nav ul{
+            list-style-type: none;
+        }
+        nav li{
+            display: inline-block;
+            margin-right: 20px;
+            margin-left: 5px;
+        }
+        nav a{
+            font-size: 1.1em;
+            color: #181818;
+            padding-bottom: 2px;
+            text-decoration: none;
+        }
+        .btn {
+  background-color: black; 
+  border: none; 
+  color: white; 
+  padding: 12px 16px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  width: 140px;
+}
+.btn:hover {
+  background-color: #696969;
+}
+
+        .dropbtn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 12px 16px; 
+  font-size: 16px; 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 200px;
+    z-index: 10;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 2000px;
+    height: 21px;
+}
+
+.dropdown-content a:hover {background-color: #696969;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
+h3{
+	margin-top: 100px;
+}
+table{
+    padding: 5px;
+    width: 100%;
+}
+table, th, td {
+  border: 1px solid #550624;
+}
+th{
+    font-size: 20px;
+    padding: 10px;
+}
+td{
+    padding: 10px;
+    font-size: 18px;
+}
+
+#back{
+    float: right;
+}
+#back1{
+    text-decoration: none;
+    color: black;
+}
+
+#bot{
+    margin-left: 10px;
+}
+#socmed{
+    margin-left: 10px;
+}
+#find{
+    margin-left: 10px;
+}
+#pic{
+            float: left;
+            height: 90px;
+            width: 90px;
+            margin-left: 20px;
+            border: none;
+            
+        }
+	</style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div id="top">
+        <header>
+          <div id="mainh">
+            <img src="images/logo2.png" id="pic" >
+            <h1 id="title">Be The Change</h1>
+          </div>
+          <div id="log">
+            <a href="logout.php" class="btn">  Logout</a>
+         
+          </div>
+        </header>
+        <div style="clear: both;"></div>
+        <hr>
+        <div class="sect">
+        <div id="nav">
+          <nav id="navi">
+            <ul id="navli" >
+              <li><a href="donorhome.php"><button class="btn"><i class="fa fa-home"></i> Home</button></a></li>
+              <li><a href="contact2.html"><button class="btn"><i class="fa fa-comments"></i> Contact Us</button></a></li>
+              <li><a href="faq2.html"><button class="btn"><i class="fa fa-folder"></i> FAQs</button></a></li> 
+            </ul>
+          </nav>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn fa fa-bars navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="dropdown-content">
+            <a href="ngolist2.php"><i class="fa fa-address-card"></i> NGO List</a>
+            <a href="donlist2.php"><i class="fa fa-address-book"></i> Donor List</a>
+            <a href="commonreq2.php"><i class="fa fa-bar-chart"></i> Requirements</a>
+            <a href="changepass.php"><i class="fa fa-cog"></i>Change password</a> 
+            <a href="helpline2.html"><i class="fa fa-commenting-o"></i> Helplines</a>
+          </div>
+        </div>
+      </div>
+      <h3 align="center">Some helplines in case of emergency.</h3>
+      <div class="help">
+      	<table>
+      		<tr>
+      			<th>Numbers</th>
+      			<th>Help-line Names</th>
+      		</tr>
+      		<tr>
+      			<td>100</td>
+      			<td>Police</td>
+      		</tr>
+      		<tr>
+      			<td>101</td>
+      			<td>Fire</td>
+      		</tr>
+      		<tr>
+      			<td>102</td>
+      			<td>Ambulance</td>
+      		</tr>
+      		<tr>
+      			<td>103</td>
+      			<td>Traffic Police</td>
+      		</tr>
+      		<tr>
+      			<td>1031</td>
+      			<td>Anti-corruption Helpline</td>
+      		</tr>
+      		<tr>
+      			<td>104</td>
+      			<td>State level helpline for Health</td>
+      		</tr>
+      		<tr>
+      			<td>104</td>
+      			<td>Hospital on wheels</td>
+      		</tr>
+      		<tr>
+      			<td>1070</td>
+      			<td>Central Relief Commissioner for Natural Calamities</td>
+      		</tr>
+      		<tr>
+      			<td>1073</td>
+      			<td>Road Accident</td>
+      		</tr>
+      		<tr>
+      			<td>108</td>
+      			<td>Disaster management</td>
+      		</tr>
+      		<tr>
+      			<td>1091</td>
+      			<td>Women in Distress</td>
+      		</tr>
+      		<tr>
+      			<td>1092</td>
+      			<td>Earth-quake Help line service</td>
+      		</tr>
+      		<tr>
+      			<td>1096</td>
+      			<td>Natural disaster control room</td>
+      		</tr>
+      		<tr>
+      			<td>1098</td>
+      			<td>Child abuse hotline</td>
+      		</tr>
+      		<tr>
+      			<td>1099</td>
+      			<td>Catastrophe & Trauma service</td>
+      		</tr>
+      		<tr>
+      			<td>112</td>
+      			<td>All in one Emergency Number</td>
+      		</tr>
+      		<tr>
+      			<td>1602</td>
+      			<td>India Telephone Card Enquiry</td>
+      		</tr>
+      		<tr>
+      			<td>1800-11-4000</td>
+      			<td>Drug de-addiction</td>
+      		</tr>
+      		<tr>
+      			<td>1800-180-1104</td>
+      			<td>National Health Helpline</td>
+      		</tr>
+      		<tr>
+      			<td>181</td>
+      			<td>Domestic abuse and sexual violence-Women's Helpline</td>
+      		</tr>
+      		<tr>
+      			<td>1910</td>
+      			<td>Blood bank Information</td>
+      		</tr>
+      		<tr>
+      			<td>1911</td>
+      			<td>Dial a doctor</td>
+      		</tr>
+      	</table>
+      </div>
+      <footer class="container">
+          <p class="float-right" id="back"><a href="#" id="back1">Back to top</a></p>
+          <p id="bot">&copy;2020 be the change &middot; <a href="privacy.php">Privacy</a> &middot; <a href="terms.html">Terms</a></p>
+          
+          <p id="find">Find us on
+            <i class=" fi fa fa-twitter" aria-hidden="true" id="socmed"></i>
+            <i class="fi fa fa-facebook" aria-hidden="true" id="socmed"></i>
+            <i class="fi fa fa-instagram" aria-hidden="true" id="socmed"></i>
+            <i class="fi fa fa-envelope" aria-hidden="true" id="socmed"></i>
+          </p>
+        </footer>
+</body>
+</html>
